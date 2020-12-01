@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  pl.atom.spring.cqs.SpringBusProviderAutoConfiguration,\
+  pl.atom.spring.cqs.command.SpringCommandAutoConfiguration,\
+  pl.atom.spring.cqs.query.SpringQueryAutoConfiguration

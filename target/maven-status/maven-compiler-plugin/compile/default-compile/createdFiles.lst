@@ -1,0 +1,17 @@
+pl\atom\spring\cqs\query\Query.class
+pl\atom\spring\cqs\query\QueryBus.class
+pl\atom\spring\cqs\SpringBusProviderAutoConfiguration.class
+pl\atom\spring\cqs\command\CommandHandlerProvider.class
+pl\atom\spring\cqs\command\SpringCommandAutoConfiguration.class
+pl\atom\spring\cqs\query\QueryHandlerProvider.class
+pl\atom\spring\cqs\command\Command.class
+pl\atom\spring\cqs\command\CommandBus.class
+pl\atom\spring\cqs\query\InMemoryQueryBus.class
+pl\atom\spring\cqs\command\InMemoryCommandBus.class
+pl\atom\spring\cqs\command\NoSuitableCommandHandlerException.class
+pl\atom\spring\cqs\BusProvider.class
+pl\atom\spring\cqs\command\CommandHandler.class
+pl\atom\spring\cqs\query\NoSuitableQueryHandlerException.class
+pl\atom\spring\cqs\query\QueryHandler.class
+pl\atom\spring\cqs\query\SpringQueryAutoConfiguration.class
+pl\atom\spring\cqs\query\WrongQueryHandlerImplementationException.class

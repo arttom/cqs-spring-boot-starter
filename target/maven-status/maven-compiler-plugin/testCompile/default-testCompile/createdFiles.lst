@@ -1,0 +1,6 @@
+pl\atom\spring\cqs\CqsSpringTest.class
+pl\atom\spring\cqs\TestQuery.class
+pl\atom\spring\cqs\TestCqsApp.class
+pl\atom\spring\cqs\TestQueryHandler.class
+pl\atom\spring\cqs\TestCommandHandler.class
+pl\atom\spring\cqs\TestCommand.class
