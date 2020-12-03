@@ -6,7 +6,7 @@
 
   <groupId>pl.atom</groupId>
   <artifactId>cqs-spring-boot-starter</artifactId>
-  <version>1.0</version>
+  <version>0.0.2</version>
   <build>
     <plugins>
       <plugin>
@@ -26,11 +26,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context-support</artifactId>
-      <version>${spring.version}</version>
-    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-autoconfigure</artifactId>

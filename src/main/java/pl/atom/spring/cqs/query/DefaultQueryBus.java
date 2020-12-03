@@ -1,11 +1,11 @@
 package pl.atom.spring.cqs.query;
 
-class InMemoryQueryBus implements QueryBus {
+class DefaultQueryBus implements QueryBus {
 
     private final QueryHandlerProvider queryHandlerProvider;
 
 
-    public InMemoryQueryBus(QueryHandlerProvider queryHandlerProvider) {
+    public DefaultQueryBus(QueryHandlerProvider queryHandlerProvider) {
         this.queryHandlerProvider = queryHandlerProvider;
     }
 

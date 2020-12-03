@@ -7,6 +7,12 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * CommandHandlers provider for DefaultCommandBus Registers all CommandHandlers with their matching Commands Only one
+ * CommandHandler is possible for one Command
+ *
+ * @author Artur Tomaszewski arttom
+ */
 class CommandHandlerProvider {
 
     private final Map<Class<? extends Command>, CommandHandler<? extends Command>> commandHandlers;
@@ -19,6 +25,9 @@ class CommandHandlerProvider {
         .map(handler -> Map.entry(resolveCommand(handler), handler))
         .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
+    }
+
+    private void throwDuplicate(CommandHandler<? extends Command> first, CommandHandler<? extends Command> second) {
     }
 
     @SuppressWarnings("unchecked")

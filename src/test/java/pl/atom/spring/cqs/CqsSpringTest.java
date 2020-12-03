@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class CqsSpringTest {
 
     @Autowired
-    BusProvider busProvider;
+    DefaultCqsBusProvider busProvider;
 
     @Test
     void testCommandHandling() {

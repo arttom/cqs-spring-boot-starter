@@ -7,9 +7,15 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * QueryHandlers provider for DefaultQueryBus Registers all QueryHandlers with their matching Queries Only one
+ * QueryHandler is possible for one Query
+ *
+ * @author Artur Tomaszewski arttom
+ */
 class QueryHandlerProvider {
 
-    private final Map<Class< ? extends Query<?>>, QueryHandler<?, ? extends Query<?>>> queryHandlers;
+    private final Map<Class<? extends Query<?>>, QueryHandler<?, ? extends Query<?>>> queryHandlers;
 
     @SuppressWarnings("unchecked")
     QueryHandlerProvider(ApplicationContext context) {
