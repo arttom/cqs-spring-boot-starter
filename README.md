@@ -36,3 +36,13 @@ class ExampleService {
     }
 }
 ```
+
+# MVN artifact
+
+```xml
+<dependency>
+  <groupId>com.github.arttom</groupId>
+  <artifactId>cqs-spring-boot-starter</artifactId>
+  <version>0.1</version>
+</dependency>
+```
