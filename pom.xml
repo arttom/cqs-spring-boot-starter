@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.arttom</groupId>
   <artifactId>cqs-spring-boot-starter</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
 
   <name>CQS Spring-Boot Starter</name>
   <description>Easy way to follow CQS principle with spring-boot</description>
@@ -39,7 +37,7 @@
     <connection>scm:git:git://github.com/arttom/cqs-spring-boot-starter.git</connection>
     <developerConnection>scm:git:git@github.com/arttom/cqs-spring-boot-starter.git</developerConnection>
     <url>https://github.com/arttom/cqs-spring-boot-starter</url>
-    <tag>HEAD</tag>
+    <tag>cqs-spring-boot-starter-0.1</tag>
   </scm>
 
   <distributionManagement>
