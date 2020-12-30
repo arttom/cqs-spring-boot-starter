@@ -1,5 +1,5 @@
 # Spring CQS library
-spring-boot-started library to allow easily follow CQS principle
+spring-boot-started library to allow easily follow [CQS (Command-Query Separation) principle](https://en.wikipedia.org/wiki/Command–query_separation)
 
 # How to use
 ## Command
